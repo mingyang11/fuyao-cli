@@ -1,0 +1,21 @@
+{
+  "name": "fuyao-cli",
+  "version": "1.0.0",
+  "description": "脚手架工具",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "fuyao-cli": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^12.5.0",
+    "ora": "^8.2.0"
+  }
+}
