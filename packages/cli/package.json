@@ -1,0 +1,24 @@
+{
+  "name": "fy-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "fy-cli": "bin/fuyao"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch", /** 监听，代码改变后实时更新，使得软链接的命令可以实时获取最新的打包结果，而不用每次去执行打包命令 */
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}

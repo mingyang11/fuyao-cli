@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "lib": ["ESNext", "DOM"],
+    "declaration": true /* 代表允许输出类型文件.d.ts */,
+    "module": "ESNext",
+    "moduleResolution": "Node" /* */
+  },
+  "include": ["packages/**/*"],
+  "exclude": []
+}

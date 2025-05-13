@@ -4,9 +4,7 @@
   "description": "脚手架工具",
   "main": "index.js",
   "type": "module",
-  "bin": {
-    "fuyao-cli": "./src/index.js"
-  },
+  "bin": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
