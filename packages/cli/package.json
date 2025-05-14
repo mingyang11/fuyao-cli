@@ -11,7 +11,7 @@
     "dist"
   ],
   "scripts": {
-    "dev": "tsup --watch", /** 监听，代码改变后实时更新，使得软链接的命令可以实时获取最新的打包结果，而不用每次去执行打包命令 */
+    "dev": "tsup --watch",
     "build": "tsup"
   },
   "keywords": [],
