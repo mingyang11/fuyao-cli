@@ -1,19 +1,24 @@
 {
-  "name": "fuyao-cli",
-  "version": "1.0.0",
-  "description": "脚手架工具",
-  "main": "index.js",
-  "type": "module",
-  "bin": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "commander": "^13.1.0",
-    "download-git-repo": "^3.0.2",
-    "inquirer": "^12.5.0",
-    "ora": "^8.2.0"
-  }
+    "name": "fy-cli",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+        "fy-cli": "bin/fuyao"
+    },
+    "files": [
+        "bin",
+        "dist"
+    ],
+    "scripts": {
+        "dev": "tsup --watch",
+        "build": "tsup"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "tsup": "^8.4.0",
+        "typescript": "^5.8.3"
+    }
 }
