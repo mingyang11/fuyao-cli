@@ -1,2 +1,3 @@
+declare const runCli: () => void;
 
-export {  }
+export { runCli };

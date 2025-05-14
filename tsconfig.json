@@ -4,7 +4,9 @@
         "lib": ["ESNext", "DOM"],
         "declaration": true /* 代表允许输出类型文件.d.ts */,
         "module": "ESNext",
-        "moduleResolution": "Node" /* */
+        "moduleResolution": "Node" /* */,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true
     },
     "include": ["src", "./tsup.config.ts"],
     "exclude": ["node_modules", "dist"] /** 指定排除文件 */

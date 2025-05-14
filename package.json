@@ -1,6 +1,6 @@
 {
     "name": "fy-cli",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "index.js",
     "bin": {
@@ -18,6 +18,11 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@types/node": "^22.15.18",
+        "commander": "^13.1.0",
+        "consola": "^3.4.2",
+        "picocolors": "^1.1.1",
+        "prompts": "^2.4.2",
         "tsup": "^8.4.0",
         "typescript": "^5.8.3"
     }

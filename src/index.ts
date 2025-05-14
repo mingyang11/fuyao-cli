@@ -1,3 +1,8 @@
-const arr = [1, 23, 121];
+/**
+ * 入口文件一定要简洁
+ */
+import { run } from './cli'
 
-console.log(arr);
+export const runCli = () => {
+    run(process.argv)
+}
