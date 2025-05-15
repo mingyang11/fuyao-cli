@@ -29,23 +29,3 @@ export const run = (args: string[]) => {
     // 解析命令行参数
     program.parse(args)
 }
-// export const run = (args: string[]) => {
-//     const [, , ...runArgs] = args
-//     const [command, ...options] = runArgs
-//     switch (command) {
-//         case 'create':
-//         case 'init':
-//             create(options)
-//             break
-//         case 'build':
-//             build(options)
-//             break
-//         case '-v':
-//         case '--version':
-//         case '-V':
-//             console.log('版本号-version')
-//             break
-//         default:
-//             break
-//     }
-// }

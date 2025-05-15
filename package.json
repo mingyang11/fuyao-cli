@@ -21,6 +21,7 @@
         "@types/node": "^22.15.18",
         "commander": "^13.1.0",
         "consola": "^3.4.2",
+        "fs-extra": "^11.3.0",
         "picocolors": "^1.1.1",
         "prompts": "^2.4.2",
         "tsup": "^8.4.0",
