@@ -39,3 +39,13 @@
     2. consola: 颜色打印
     3. picocolors: 背景颜色控制
     4. prompts: 用户交互库
+
+#### 如何修改 create 后的项目名称不是必填的？
+
+在 Commander 中，可以使用方括号 [] 表示可选参数，而不是尖括号 <>
+
+### prettier
+
+#### 设置自动保存的时候行末尾自动加分号
+
+将 "semi": false 改为 "semi": true 即可让 Prettier 在每行语句结束时自动添加分号。

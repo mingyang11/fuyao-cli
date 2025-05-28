@@ -1,5 +1,7 @@
-const build = () => {
-    console.log('构建项目-build')
+import type { Command } from 'commander'
+
+const build = (program: Command) => {
+    return program.createCommand('build')
 }
 
 export default build

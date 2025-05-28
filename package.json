@@ -2,9 +2,11 @@
     "name": "fy-cli",
     "version": "1.0.1",
     "description": "",
-    "main": "index.js",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
     "bin": {
-        "fy-cli": "bin/fuyao"
+        "fy": "bin/fuyao.js"
     },
     "files": [
         "bin",
